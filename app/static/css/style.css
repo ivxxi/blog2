@@ -1,0 +1,41 @@
+
+img{
+  width: 100%;
+
+}
+
+.home{
+    height:400px;
+
+}
+
+
+h2{
+    font-family: 'Playfair Display SC', serif;
+    color:blueviolet;
+    padding: 10px;
+}
+h3{
+    font-family: 'Playfair Display SC', serif;
+    color: blueviolet;
+    padding: 10px;
+}
+
+.panel{
+    background-color: black;
+    padding:10px;
+    margin:10px;
+    height:auto;
+}
+.panel-heading{
+    color:blueviolet;
+    font-size: 20px;
+}
+.navlink{
+    text-decoration:underline;
+    color: blueviolet;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    font-weight:bold;
+}
