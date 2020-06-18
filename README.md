@@ -29,7 +29,9 @@ Blog is a web application that users can view other blog posts, comment on the b
 
         $ chmod a+x start.sh
         $ ./start.sh
-## Live Link`https://ivxxi-blog.herokuapp.com/
+## Live Link`
+
+https://ivxxi-blog.herokuapp.com/
 
 ### Behaviour Driven Development
 | Behavior            | Input                         | Output                        |
