@@ -2,7 +2,6 @@
 A web application that allow users to read blogs and for writers to post, edit and delete blogs:
 
 ## By crystal alice
-A student at Moringa School and an aspiring software developer.
 
 ## Description
 Blog is a web application that users can view other blog posts, comment on the blogs and sign in as writers. Writers are able to post new blog post, edit existing posts, delete posts and comments. Random quote is also displayed on every blog
