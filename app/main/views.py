@@ -104,7 +104,7 @@ def delete_comment(blog_id):
 @main.route('/user/<uname>')
 def profile(uname):
     user = User.query.filter_by(username = uname).first()
-    # blogs = Blog.query.filter_by(user_id=user.id)
+    
     if user is None:
         abort(404)
 
