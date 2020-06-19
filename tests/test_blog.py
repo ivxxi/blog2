@@ -6,7 +6,7 @@ from app import db
 class BlogTest(unittest.TestCase):
 
     def setUp(self):
-        self.user_James = User(username='James', password='potato', email='james@ms.com')
+        self.user_ivxxi = User(username='Ivxxi', password='mypassword', email='ivxxi@gmail.com')
         self.new_blog = Blog(id=12345, title='Title for Blog', author_id=1)
 
     def test_instance(self):

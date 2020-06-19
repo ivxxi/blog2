@@ -5,9 +5,9 @@ from app import db
 
 class CommentModelTest(unittest.TestCase):
     def setUp(self):
-        self.user_James = User(username='James', password='potato', email='james@ms.com')
-        self.post_Fly = Blog(title='James', body='potato', id='1')
-        self.new_comment = Comment(body='good', author='John Doe')
+        self.user_James = User(username='Ivxxi', password='mypassword', email='ivxxi@gmail.com')
+        self.post_Fly = Blog(title='blog title test', body='blog body test', id='1')
+        self.new_comment = Comment(body='blog comment', author='user ivxxi')
 
     def tearDown(self):
         Comment.query.delete()
@@ -18,8 +18,8 @@ class CommentModelTest(unittest.TestCase):
         self.assertTrue(isinstance(self.new_comment, Comment))
 
     def test_to_check_instance_variables(self):
-        self.assertEquals(self.new_comment.body, 'good')
-        self.assertEquals(self.new_comment.author, 'John Doe')
+        self.assertEquals(self.new_comment.body, 'blog comment')
+        self.assertEquals(self.new_comment.author, 'user ivxxi')
 
 
 
